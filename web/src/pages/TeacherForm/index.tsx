@@ -1,7 +1,13 @@
 import React from "react";
 
+import "./styles.css";
+import Header from "../../components/Header";
 function TeacherForm() {
-  return <h1> Teacher Form</h1>;
+  return (
+    <div id="page-teacher-list" className="container">
+      <Header title="dunfa" />
+    </div>
+  );
 }
 
 export default TeacherForm;
