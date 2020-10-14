@@ -2,6 +2,7 @@ import React from "react";
 import backIcon from "../../assets/images/icons/back.svg";
 import logoImg from "../../assets/images/logo.svg";
 import { Link } from "react-router-dom";
+
 import "./styles.css";
 
 interface HeaderProps {
